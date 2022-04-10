@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d210896ef67843958ac26da2076a78bf" Name="Diagram1">
+        <EntityTypeShape EntityType="QueryRoomDBModel.TBL_ANSWERS" Width="1.5" PointX="5.25" PointY="3.5" />
+        <EntityTypeShape EntityType="QueryRoomDBModel.TBL_QUESTIONS" Width="1.5" PointX="3" PointY="3.125" />
+        <EntityTypeShape EntityType="QueryRoomDBModel.TBL_SIGNUP" Width="1.5" PointX="0.75" PointY="4.125" />
+        <EntityTypeShape EntityType="QueryRoomDBModel.TBL_USERROLE" Width="1.5" PointX="3.375" PointY="7" />
+        <AssociationConnector Association="QueryRoomDBModel.FK__TBL_ANSWE__USERN__66603565" />
+        <AssociationConnector Association="QueryRoomDBModel.FK__TBL_ANSWERS__QID__656C112C" />
+        <AssociationConnector Association="QueryRoomDBModel.FK__TBL_QUEST__USERN__619B8048" />
+        <AssociationConnector Association="QueryRoomDBModel.FK__TBL_USERR__USERN__693CA210" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
